@@ -1,1 +1,76 @@
-# Elevatelabstask3Thanuj-v
+A mini Library Management System built using Java and Object-Oriented Programming (OOP) principles.
+The system manages books and users, allowing features like issuing and returning books.
+
+🛠️ Tools & Requirements
+
+Java JDK 8+
+
+VS Code / IntelliJ / Any IDE
+
+Terminal / Command Prompt
+
+📂 Project Structure
+LibraryManagement/
+ ├── Book.java      # Book class (title, author, issue status)
+ ├── User.java      # User class (user details)
+ ├── Library.java   # Library class (manages books & users)
+ └── Main.java      # Main entry point (demo)
+
+🚀 Features
+
+Add books to the library
+
+Register users
+
+Issue a book to a user
+
+Return a book
+
+Display all books with status (Available / Issued)
+
+▶️ How to Run
+
+Clone or Download the project folder.
+
+Open a terminal inside the project directory.
+
+Compile all .java files:
+
+javac *.java
+
+
+Run the program:
+
+java Main
+
+📖 Example Output
+Added: The Alchemist by Paulo Coelho [Available]
+Added: 1984 by George Orwell [Available]
+Added: Clean Code by Robert C. Martin [Available]
+Registered: User: Alice (ID: 1)
+Registered: User: Bob (ID: 2)
+
+Library Books:
+ - The Alchemist by Paulo Coelho [Available]
+ - 1984 by George Orwell [Available]
+ - Clean Code by Robert C. Martin [Available]
+
+Book '1984' issued to User ID: 1
+
+Library Books:
+ - The Alchemist by Paulo Coelho [Available]
+ - 1984 by George Orwell [Issued]
+ - Clean Code by Robert C. Martin [Available]
+
+Sorry, book '1984' is not available.
+Book '1984' returned successfully.
+
+🔮 Future Enhancements
+
+Menu-driven system (interactive user input)
+
+Track which user has borrowed which book
+
+Search books by title/author
+
+Save & load data using files or database
