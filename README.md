@@ -74,3 +74,11 @@ Track which user has borrowed which book
 Search books by title/author
 
 Save & load data using files or database
+
+Output:
+
+<img width="1710" height="1107" alt="Screenshot 2025-09-27 at 4 45 47 PM" src="https://github.com/user-attachments/assets/a6a715d4-d6a1-4fd8-9814-ea7dde912e38" />
+
+<img width="1710" height="1107" alt="Screenshot 2025-09-27 at 4 47 11 PM" src="https://github.com/user-attachments/assets/2eef59e3-6369-47ba-822f-597561a5539c" />
+
+
